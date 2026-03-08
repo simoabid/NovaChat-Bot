@@ -6,3 +6,10 @@ database.json
 package-lock.json
 sessions
 sessions/*
+sessions/
+.sessions
+.sessions/
+**/sessions/
+**/sessions/*
+
+

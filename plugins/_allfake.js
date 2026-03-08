@@ -86,13 +86,6 @@ handler.all = async function (m) {
 
     global.adReply = {
       contextInfo: {
-        isForwarded: true,
-        forwardingScore: 1,
-        forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363285847738492@newsletter",
-          serverMessageId: 103,
-          newsletterName: `NovaChat-Bot    |   هيا نحو النجاح 🧑‍🏫`,
-        },
         externalAdReply: {
           title: namebot,
           body: global.ucapan,
