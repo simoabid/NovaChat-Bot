@@ -1,5 +1,5 @@
 /*
-* Instagram: noureddine_ouafy
+* Instagram: simoabiid
 * Base: https://freeimage.host/
 * Author: Shannz
 */

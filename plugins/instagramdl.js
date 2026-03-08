@@ -1,4 +1,4 @@
-//plugin by noureddine_ouafy
+//plugin by simoabiid
 //scrape by SxyzVerse thanks Brother 
 
 import axios from "axios";

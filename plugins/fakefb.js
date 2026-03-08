@@ -1,5 +1,5 @@
 // plugin by Dnn-Cuki
-// modified by noureddine ouafy
+// modified by SeeMoo
 
 import { createCanvas, loadImage } from 'canvas'
 import fs from 'fs'
@@ -7,7 +7,7 @@ import fs from 'fs'
 let handler = async (m, { text, conn, usedPrefix, command }) => {
   try {
     let [name, comment] = text.split('|')
-    if (!name || !comment) throw `Invalid format!\n\nExample: ${usedPrefix + command} noureddine Ouafy|lbot smito silana!`
+    if (!name || !comment) throw `Invalid format!\n\nExample: ${usedPrefix + command} SeeMoo|lbot smito NovaChat-Bot By SeeMoo!`
 
     let ppUrl = await conn.profilePictureUrl(m.sender, 'image').catch(() => 'https://i.ibb.co/3pPYd14/pp.jpg')
     let pp = await loadImage(ppUrl)

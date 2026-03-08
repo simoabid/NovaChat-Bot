@@ -1,4 +1,4 @@
-// @noureddine_ouafy
+// @simoabiid
 // Command: .writecream
 // Usage: .writecream system message|user message
 // Example: .writecream You are a helpful assistant.|What is the capital of Morocco?

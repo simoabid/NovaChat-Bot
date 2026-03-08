@@ -1,4 +1,4 @@
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 
 import axios from 'axios';
 import FormData from 'form-data';
@@ -7,7 +7,7 @@ import * as cheerio from 'cheerio';
 const handler = async (m, { conn, text }) => {
   if (!text) return m.reply('المرجو إرسال رابط تغريدة يحتوي على فيديو');
 
-  await m.reply('المرجو الانتظار قليلا لا تنسى ان تتابع \ninstagram.com/noureddine_ouafy');
+  await m.reply('المرجو الانتظار قليلا لا تنسى ان تتابع \ninstagram.com/simoabiid');
 
   try {
     const form = new FormData();

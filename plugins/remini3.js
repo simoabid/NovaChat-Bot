@@ -1,7 +1,3 @@
-// Instagram: noureddine_ouafy
-// Plugin: HD Image Upscaler
-// Scraper Source: https://whatsapp.com/channel/0029Vb2mOzL1Hsq0lIEHoR0N/579
-// Converted to ESM & English
 
 import axios from "axios";
 import FormData from "form-data";

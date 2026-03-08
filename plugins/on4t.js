@@ -1,4 +1,4 @@
-// Instagram: noureddine_ouafy
+// Instagram: simoabiid
 // Download videos from multiple platforms using On4t.com
 // scrape by rikikangsc2-eng
 import axios from 'axios';

@@ -1,5 +1,5 @@
 // plugin from liora sc
-// modified by instagram.com/noureddine_ouafy
+// modified by instagram.com/simoabiid
 
 
 import fetch from "node-fetch"

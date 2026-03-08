@@ -1,7 +1,7 @@
 /**
- * @instagram.com/noureddine_ouafy
+ * @instagram.com/simoabiid
  * Scrape Instagram Stalk Info
- * Author: SaaOfc's | Modified by: @noureddine_ouafy
+ * Author: SaaOfc's | Modified by: @simoabiid
  */
 
 import axios from 'axios';
@@ -70,7 +70,7 @@ async function StalkIg(username) {
 }
 
 let handler = async (m, { conn, args }) => {
-  if (!args[0]) return m.reply('❗ Please provide an Instagram username.\nExample: .ig-profile noureddine_ouafy');
+  if (!args[0]) return m.reply('❗ Please provide an Instagram username.\nExample: .ig-profile simoabiid');
 
   const res = await StalkIg(args[0].replace(/^@/, ''));
 

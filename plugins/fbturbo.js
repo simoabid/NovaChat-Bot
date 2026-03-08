@@ -1,6 +1,3 @@
-// instagram.com/noureddine_ouafy
-// • Scrape : fesnuk downloader
-// • Credits : https://whatsapp.com/channel/0029Vb4fjWE1yT25R7epR110
 
 import axios from 'axios'
 import * as cheerio from 'cheerio'
@@ -42,7 +39,7 @@ async function fbDownloaderTurbo(url) {
 let handler = async (m, { conn, text }) => {
   if (!text) return m.reply(`✳️ Example:\n${m.prefix + m.command} https://www.facebook.com/share/r/178yix9Q2T/`)
   
-  m.reply("المرجو الانتظار قليلا لا تنسى ان تتابع \ninstagram.com/noureddine_ouafy")
+  m.reply("المرجو الانتظار قليلا لا تنسى ان تتابع \ninstagram.com/simoabiid")
   
   try {
     const result = await fbDownloaderTurbo(text)

@@ -1,9 +1,3 @@
-/*
-* Nama fitur : Mediafire Search
-* Type : Plugin Esm
-* Sumber : https://whatsapp.com/channel/0029Vb6Zs8yEgGfRQWWWp639
-* Author : ZenzzXD
-*/
 
 import axios from 'axios'
 import cheerio from 'cheerio'

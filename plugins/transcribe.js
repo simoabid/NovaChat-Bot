@@ -1,4 +1,4 @@
-// plugin by noureddine ouafy 
+// plugin by SeeMoo 
 // scraper malik 
 
 import axios from "axios";

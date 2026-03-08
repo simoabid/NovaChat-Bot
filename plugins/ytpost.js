@@ -1,4 +1,4 @@
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 // scrape by wolfyflutter
 let handler = async (m, { conn, args }) => {
   if (!args[0]) return m.reply('❌ من فضلك أدخل رابط منشور يوتيوب.\nمثال:\n.ytpost http://youtube.com/post/Ugkxyo7NFjX9QWJky0WQQ7eEquJlkD3M6B0z?si=ImZCuBvQRA3Kmsl2');

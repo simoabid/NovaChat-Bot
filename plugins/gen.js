@@ -1,4 +1,4 @@
-// plugin by noureddine ouafy 
+// plugin by SeeMoo 
 // scrape by malik 
 import axios from "axios"; // Assuming you have 'axios' installed: npm install axios
 
@@ -37,7 +37,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 
     // --- 2. Initial Reply ---
     await m.reply(
-      "⏳ المرجو الانتظار قليلاً، لا تنسى تتابع:\ninstagram.com/noureddine_ouafy"
+      "⏳ المرجو الانتظار قليلاً، لا تنسى تتابع:\ninstagram.com/simoabiid"
     );
 
     try {

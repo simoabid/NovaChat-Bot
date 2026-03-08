@@ -1,7 +1,7 @@
 {
-  "name": "silanalite",
+  "name": "novachat-bot",
   "version": "1.0.0",
-  "description": "Silana-lite",
+  "description": "A WhatsApp bot built using Baileys library, designed to provide various features and functionalities for users. The bot is developed by SeeMoo and is available on GitHub.",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -13,17 +13,29 @@
     "test": "node test.js"
   },
   "keywords": [
-    "silanaai",
-    "wabot-aq"
+    "novachat",
+    "novachat-bot",
+    "whatsapp-bot",
+    "baileys",
+    "nodejs",
+    "seeMoo",
+    "chatbot",
+    "automation",
+    "messaging",
+    "social-media",
+    "communication",
+    "technology",
+    "opensource",
+    "github"
   ],
-  "homepage": "https://github.com/Tiooxy/Tixo-md",
-  "author": "Tio",
+  "homepage": "https://github.com/simoabid/NovaChat-Bot#readme",
+  "author": "SeeMoo",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tiooxy/Tixo-md.git"
+    "url": "git+https://github.com/simoabid/NovaChat-Bot.git"
   },
   "bugs": {
-    "url": "https://github.com/Tiooxy/Tixo-md/issues"
+    "url": "https://github.com/simoabid/NovaChat-Bot/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {

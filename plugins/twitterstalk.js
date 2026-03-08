@@ -2,7 +2,7 @@
 📌 Name : Twitter Stalker
 🏷️ scrape : ZenzzXD
 👤 Source : snaplytics.io (via twittermedia CDN)
-✍️ Converted by : ChatGPT and instagram.com/noureddine_ouafy
+✍️ Converted by : ChatGPT and instagram.com/simoabiid
 */
 
 import axios from 'axios'

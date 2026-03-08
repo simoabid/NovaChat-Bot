@@ -1,6 +1,6 @@
-// plugin by noureddine ouafy
+// plugin by SeeMoo
 // scrape by synshin9
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 
 import axios from "axios";
 import * as cheerio from "cheerio";

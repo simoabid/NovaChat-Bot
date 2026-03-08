@@ -1,8 +1,3 @@
-/* 
-• Upscale Plugin (HD Photo)
-• Source: https://whatsapp.com/channel/0029VakezCJDp2Q68C61RH2C
-• Source Scrape: https://whatsapp.com/channel/0029Vb5blhMEawdx2QFALZ1D
-*/
 
 import fetch from 'node-fetch'
 import FormData from 'form-data'

@@ -1,14 +1,9 @@
-// instagram.com/noureddine_ouafy
-/**
- * Plugin: .sc
- * Description: إرسال روابط السورس كود والقناة الرسمية
- */
 
 let handler = async (m, { conn }) => {
   const teks = `📦 *رابط السورس كود الخاص بالبوت:*\n` +
-    `https://github.com/noureddineouafy/silana-lite-ofc\n\n` +
+    `https://github.com/simoabid/NovaChat-Bot\n\n` +
     `📢 *القناة الرسمية على واتساب:*\n` +
-    `https://whatsapp.com/channel/0029VaX4b6J7DAWqt3Hhu01A\n\n` +
+    `https://wa.me/212676226120\n\n` +
     `⭐ لا تنسَ وضع نجمة على المستودع إذا أعجبك المشروع!`;
 
   await conn.reply(m.chat, teks, m);

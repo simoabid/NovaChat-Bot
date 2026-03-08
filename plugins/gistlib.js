@@ -1,16 +1,3 @@
-/*
-Do Not Remove My Watermark 
-
-*name Plugins Esm*
-
-✨ GISTLIB (ASK QUESTIONS, GET ANSWERS FROM PROGRAMMERS AI) ✨
-
-*[Source]*
-https://whatsapp.com/channel/0029Vb3u2awADTOCXVsvia28
-
-*[Scrape Source]*
-https://whatsapp.com/channel/0029Vb5EZCjIiRotHCI1213L/190
-*/
 
 import axios from 'axios';
 import qs from 'qs';

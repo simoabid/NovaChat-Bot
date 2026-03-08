@@ -1,5 +1,5 @@
 // scrape by malik
-// plugin by noureddine ouafy 
+// plugin by SeeMoo 
 
 import axios from "axios"
 import { randomBytes, randomInt } from "crypto"

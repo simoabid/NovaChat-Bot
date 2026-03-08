@@ -1,5 +1,5 @@
 // scrape by malik
-// plugin by instagram.com/noureddine_ouafy
+// plugin by instagram.com/simoabiid
 import axios from 'axios'
 import https from 'https'
 import crypto from 'crypto'

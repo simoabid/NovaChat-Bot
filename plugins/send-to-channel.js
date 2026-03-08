@@ -18,8 +18,8 @@ let handler = async (m, {conn, text, config}) => {
                 newsletterName: channelName
             },
             externalAdReply: {
-                title: "Noureddine Ouafy", 
-                body: "هذه رسالة من سيلانا الذكية | SILANA AI BOT",
+                title: "SeeMoo", 
+                body: "هذه رسالة من سيلانا الذكية | NovaChat-Bot By SeeMoo",
                 thumbnailUrl: thumbnailUrl, 
                 sourceUrl: null,
                 mediaType: 1

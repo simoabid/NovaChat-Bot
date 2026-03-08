@@ -1,6 +1,6 @@
 // plugin by midsoune
 // thanks
-// noureddine ouafy 
+// SeeMoo 
 
 import { spawn } from 'child_process';
 import fs from 'fs'

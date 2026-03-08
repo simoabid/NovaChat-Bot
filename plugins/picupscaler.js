@@ -1,5 +1,5 @@
 /*
- * Instagram: noureddine_ouafy
+ * Instagram: simoabiid
  * Feature: Upscale image by replying to a photo
  * Usage: Reply to a photo with .picupscaler
  * scrape by GilangSan

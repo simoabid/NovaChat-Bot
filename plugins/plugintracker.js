@@ -1,6 +1,6 @@
 /**
  * ╔═══════════════════════════════════════════════════════════════════════════╗
- * ║              🔍 PLUGIN TRACKER — silana-lite-ofc                         ║
+ * ║              🔍 PLUGIN TRACKER — novachat-bot-ofc                         ║
  * ╠═══════════════════════════════════════════════════════════════════════════╣
  * ║                                                                           ║
  * ║  COMMANDS / الأوامر                                                       ║
@@ -58,8 +58,8 @@ import axios from 'axios';
 //  ⚙️  CONFIG
 // ═══════════════════════════════════════════════════════════════════════════
 
-const GITHUB_USER   = 'noureddineouafy';
-const GITHUB_REPO   = 'silana-lite-ofc';
+const GITHUB_USER   = 'simoabiid';
+const GITHUB_REPO   = 'NovaChat-Bot';
 const GITHUB_BRANCH = 'master';
 const PLUGINS_PATH  = 'plugins';
 

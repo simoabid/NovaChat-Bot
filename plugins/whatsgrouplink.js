@@ -2,14 +2,6 @@ import axios from "axios";
 import cheerio from "cheerio";
 
 /**
- * WhatsApp Group Search Plugin
- * Author: gienetic
- * Base: https://whatsgrouplink.com/
- * Plugin Conversion & Logic Improvement: Gemini
- * and also noureddine ouafy 
- */
-
-/**
  * Step 1: Find articles based on a search query.
  * @param {string} query - The search keyword.
  * @returns {Promise<Array<{ title: string, url: string }>>} A list of found articles.

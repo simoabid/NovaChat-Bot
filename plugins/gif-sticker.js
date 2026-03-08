@@ -39,7 +39,7 @@ async function gifsSearch(q) {
 }
 
 const handler = async (m, { conn, text, command }) => {
-    if (!text) throw `Example: .${command} silana ai 3`;
+    if (!text) throw `Example: .${command} NovaChat-Bot By SeeMoo 3`;
 
     const [query, countStr] = text.split(/(?<=^\S+)\s/);
     const count = Math.min(Number(countStr) || 1, 10);
@@ -65,8 +65,8 @@ const handler = async (m, { conn, text, command }) => {
 
             const sticker = new Sticker(data, {
                 type: 'full',
-                pack: 'silana ai',
-                author: 'bot By noureddine ouafy', // Watermark added here
+                pack: 'NovaChat-Bot By SeeMoo',
+                author: 'bot By SeeMoo', // Watermark added here
                 quality: 70
             });
 

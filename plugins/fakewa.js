@@ -1,5 +1,5 @@
 // Noroshi
-// recod by noureddine ouafy 
+// recod by SeeMoo 
 import { loadImage, createCanvas } from 'canvas';
 import fs from 'fs';
 import path from 'path';
@@ -7,7 +7,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text || !text.includes('|')) {
     return m.reply(
       `🚩 Incorrect format.\n` +
-      `Example: ${usedPrefix}${command} Noureddine ouafy| +212717457920 | Busy\n` +
+      `Example: ${usedPrefix}${command} SeeMoo| +212676226120 | Busy\n` +
       `Reply to the target's profile picture for a custom avatar.`
     );
   }

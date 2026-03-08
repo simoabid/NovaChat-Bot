@@ -1,4 +1,4 @@
-// plugin edit by instagram.com/noureddine_ouafy
+// plugin edit by instagram.com/simoabiid
 // code origine by https://github.com/mruniquehacker/Knightbot-MD/blob/main/commands/video.js thanks brother
 import axios from 'axios'
 import yts from 'yt-search'

@@ -1,8 +1,4 @@
-// 📌 Feature: Screenshot Website
-// ✍️ Creator: xyzan code - Anomaki Team
-// 📎 Source: https://whatsapp.com/channel/0029Vaio4dYC1FuGr5kxfy2l
-// ❗ لا تحذف حقوق المطور
-// plugin by noureddine ouafy
+
 import axios from 'axios'
 
 async function ssweb(url) {

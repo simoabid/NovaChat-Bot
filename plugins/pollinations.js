@@ -1,6 +1,6 @@
 /**
  * Generator Image - Gen Ai
- * plugin by noureddine ouafy
+ * plugin by SeeMoo
  * scrape by gienetic
  * Base    : https://play.google.com/store/apps/details?id=com.sparksolutionz.genai
  */

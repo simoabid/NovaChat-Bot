@@ -1,4 +1,4 @@
-// plugin by instagram.com/noureddine_ouafy
+// plugin by instagram.com/simoabiid
 // scrape by NusanTech
 import axios from 'axios'
 import { parseStringPromise } from 'xml2js'
@@ -60,7 +60,7 @@ async function generateTextCraftImage(text, text2, text3) {
 
 let handler = async (m, { conn, args }) => {
   if (args.length < 3) {
-    return m.reply('✳️ Please enter 3 text segments separated by commas:\n\nExample: .textcraft Hello, My Bot, Silana')
+    return m.reply('✳️ Please enter 3 text segments separated by commas:\n\nExample: .textcraft Hello, My Bot, NovaChat-Bot By SeeMoo')
   }
 
   let [text1, text2, text3] = args.join(' ').split(',')

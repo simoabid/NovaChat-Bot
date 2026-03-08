@@ -1,6 +1,6 @@
-// plugin by noureddine ouafy
+// plugin by SeeMoo
 // scrape by Fahmi-XD
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 
 import axios from "axios";
 import crypto from "crypto";

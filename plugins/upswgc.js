@@ -1,5 +1,5 @@
 // plugin by Const Offmon = Lana;
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 
 import { prepareWAMessageMedia } from '@adiwajshing/baileys'
 

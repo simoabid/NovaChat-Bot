@@ -1,4 +1,4 @@
-// plugin by noureddine ouafy 
+// plugin by SeeMoo 
 // scrape by wolfyflutter
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {

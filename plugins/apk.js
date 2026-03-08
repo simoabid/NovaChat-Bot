@@ -1,4 +1,4 @@
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 
 let handler = async (m, { conn, usedPrefix, command, text }) => {
   if (!text)

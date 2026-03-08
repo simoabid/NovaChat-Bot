@@ -3,7 +3,7 @@ import fetch from "node-fetch";
 const handler = async (m, { conn, usedPrefix, command, text }) => {
     if (!text) return m.reply(`*• مثال :* ${usedPrefix + command} *[رابط جوجل درايف]*`);
     
-    m.reply("المرجو الانتظار قليلا لا تنسى ان تتابع \ninstagram.com/noureddine_ouafy");
+    m.reply("المرجو الانتظار قليلا لا تنسى ان تتابع \ninstagram.com/simoabiid");
     
     let data = await drive(text);
     if (data.error) return m.reply("⚠️ حدث خطأ أو أن الرابط غير صالح!");

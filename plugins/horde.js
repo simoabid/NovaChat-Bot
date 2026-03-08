@@ -1,4 +1,4 @@
-// Instagram: noureddine_ouafy
+// Instagram: simoabiid
 // scrape by malik
 
 import axios from "axios";

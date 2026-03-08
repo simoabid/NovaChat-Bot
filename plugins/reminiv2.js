@@ -1,4 +1,4 @@
-// Instagram: noureddine_ouafy
+// Instagram: simoabiid
 // https://xyro.site/
 import axios from 'axios';
 import FormData from 'form-data';
@@ -13,7 +13,7 @@ let handler = async (m, { conn, command, quoted, prefix, usedPrefix, text }) => 
   }
 
   // Wait message
-  await m.reply("⏳ Please wait a moment... \ninstagram.com/noureddine_ouafy");
+  await m.reply("⏳ Please wait a moment... \ninstagram.com/simoabiid");
 
   try {
     // Download image

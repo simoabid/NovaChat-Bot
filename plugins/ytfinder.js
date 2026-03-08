@@ -1,11 +1,11 @@
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 import fetch from "node-fetch"
 import {
   generateWAMessageFromContent
 } from "@adiwajshing/baileys"
 
 let handler = async (m, { conn, text }) => {
-  if (!text) throw "This command is for searching on YouTube, for example:\n.ytfinder noureddine ouafy"
+  if (!text) throw "This command is for searching on YouTube, for example:\n.ytfinder SeeMoo"
 
   const regex = /^https:\/\/www\.youtube\.com\/watch\?v=[A-Za-z0-9_-]+$/
   const isMatch = regex.test(text)

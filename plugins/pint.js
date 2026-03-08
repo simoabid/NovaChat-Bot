@@ -1,4 +1,4 @@
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 
 let handler = async (m, { conn, text }) => {
   if (!text) return m.reply('🔍 اكتب كلمة للبحث عنها في Pinterest.\nمثال: .pint furina');

@@ -28,7 +28,7 @@ async function handler(m, { conn, text }) {
         try {
             ppuser = await conn.profilePictureUrl(m.sender, 'image');
         } catch {
-            ppuser = 'https://files.catbox.moe/hnbuh3.jpg';
+            ppuser = 'https://picsur.ovh/i/c0948522-2092-4dc6-91fb-8644072e922f.jpg';
         }
 
         // Message context info
@@ -39,14 +39,14 @@ async function handler(m, { conn, text }) {
             forwardedNewsletterMessageInfo: {
                 newsletterJid: idsal,
                 serverMessageId: 20,
-                newsletterName: 'silana Ai | أسطورة البوتات '
+                newsletterName: 'NovaChat-Bot By SeeMoo',
             },
             externalAdReply: {
                 title: pushname,
-                body: `Silana runtime is active.| سيلانا رهن الاشارة`,
+                body: `NovaChat-Bot is active.`,
                 thumbnailUrl: ppuser,
                 mediaType: 1,
-                sourceUrl: 'https://whatsapp.com/channel/0029VaX4b6J7DAWqt3Hhu01A'
+                sourceUrl: 'https://wa.me/212676226120'
             }
         };
 

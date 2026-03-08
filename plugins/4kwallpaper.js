@@ -1,4 +1,4 @@
-// modified by : noureddine_ouafy
+// modified by : simoabiid
 // scrape by GilangSan
 import axios from 'axios'
 import cheerio from 'cheerio'

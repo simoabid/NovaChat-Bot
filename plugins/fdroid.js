@@ -1,4 +1,4 @@
-// plugin by noureddine ouafy
+// plugin by SeeMoo
 // claud ai thanks hahahaha 
 
 import axios from 'axios';

@@ -1,4 +1,4 @@
-// plugin by noureddine ouafy
+// plugin by SeeMoo
 // scrape by https://share.petrolabs.me/tools/videoenhance
 
 import fs from "node:fs/promises";

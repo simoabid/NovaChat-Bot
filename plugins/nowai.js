@@ -1,4 +1,4 @@
-// @noureddine_ouafy
+// @simoabiid
 // scrape by Author: Shannz
 import crypto from 'crypto'
 import axios from 'axios'

@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url'
 
 // Owner
 global.owner = [
-['212717457920', 'Noureddine', true]
+['212676226120', 'SeeMoo', true]
 ]
 global.mods = []
 global.prems = []
@@ -119,8 +119,7 @@ global.sig = url.sig
 global.sgh = url.sgh
 global.sgc = url.sgc
 
-// payment 
-global.pdana = payment.pdana
+// payment (removed - no longer used)
 global.wait = msg.wait
 global.eror = msg.eror
 global.uptime = api.uptime

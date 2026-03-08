@@ -123,14 +123,12 @@ let handler = async (m, { conn, usedPrefix, command, args }) => {
    let tUser = Object.keys(db.data.users).length;
    let userReg = Object.values(global.db.data.users).filter(user => user.registered == true).length
    
-let headers = `إعتبرني : رفيقتك ، أستاذتك ،عزيزتك ،التي ستجدها قربك في كل يوم لأجعل لك من نجمة ستة و من استخدام تطبيق الواتساب طعما آخر 🙂‍↕️🧠🗣️\n\n`
+let headers = `*Hey 👋,I'm NovaChat-Bot By SeeMoo* ⚡🚀, Please pick a command from the list below.📲 \n\n`
 
   if (cmd === 'list') {
     const daftarTag = Object.keys(tagCount)
       .sort()
       .join('\n│※ ' + usedPrefix + command + '  ');
-    const more = String.fromCharCode(8206)
-    const readMore = more.repeat(4001)
     let _mpt
     if (process.send) {
       process.send('uptime')
@@ -141,7 +139,7 @@ let headers = `إعتبرني : رفيقتك ، أستاذتك ،عزيزتك ،
     }
     let mpt = clockString(_mpt)
     let name = m.pushName || conn.getName(m.sender)
-    let list = `${headers}${readMore}\n╭──「 LIST MENU 」\n│※ ${usedPrefix + command} all\n│※ ${daftarTag}\n╰──────────•`
+    let list = `${headers}\n╭──「 LIST MENU 」\n│※ ${usedPrefix + command} all\n│※ ${daftarTag}\n╰──────────•`
  const pp = await conn.profilePictureUrl(m.sender, 'image').catch((_) => "https://telegra.ph/file/1ecdb5a0aee62ef17d7fc.jpg");
 if (_menu.image) {
 
@@ -212,10 +210,7 @@ conn.sendMessage(m.chat, {
       const limitSign = help[index].limit ? 'Ⓛ' : '';
       return `.${helpItem} ${premiumSign}${limitSign}`;
     }).join('\n│※'  + ' ');
-        const more = String.fromCharCode(8206)
-        const readMore = more.repeat(4001)
-        
-    const list2 =  `${headers}${readMore}╭──「 MENU ${cmd.toUpperCase()} 」\n├──────────────\n│※ ${daftarHelp}\n╰──────────•\n\n*Total menu ${cmd}: ${tagHelpMapping[cmd].length}*`
+    const list2 =  `${headers}╭──「 MENU ${cmd.toUpperCase()} 」\n├──────────────\n│※ ${daftarHelp}\n╰──────────•\n\n*Total menu ${cmd}: ${tagHelpMapping[cmd].length}*`
      const pp = await conn.profilePictureUrl(m.sender, 'image').catch((_) => "https://telegra.ph/file/1ecdb5a0aee62ef17d7fc.jpg");
 if (_menu.image) {
 
@@ -276,12 +271,10 @@ conn.sendMessage(m.chat, {
             },
           }, {quoted: m});
           } else if (_menu.button) {
-          conn.sendListImageButton(m.chat, `IM SILANA LITE AI\n\n${list2}`, datas, wm, thumbnail)
+          conn.sendListImageButton(m.chat, `IM NovaChat-Bot By SeeMoo\n\n${list2}`, datas, wm, thumbnail)
           }
           } else if (cmd === 'all') {
     let name = m.pushName || conn.getName(m.sender)
-    const more = String.fromCharCode(8206)
-    const readMore = more.repeat(4001)
     const allTagsAndHelp = Object.keys(tagCount).map(tag => {
       const daftarHelp = tagHelpMapping[tag].map((helpItem, index) => {
         const premiumSign = help[index].premium ? '🅟' : '';
@@ -290,7 +283,7 @@ conn.sendMessage(m.chat, {
       }).join('\n│※' + ' ');
       return`╭──「 MENU ${tag.toUpperCase()} 」\n├──────────────\n│※ ${daftarHelp}\n╰──────────•`;
     }).join('\n');
-    let all =  `${headers}${readMore}\n${allTagsAndHelp}\n${wm}`
+    let all =  `${headers}\n${allTagsAndHelp}\n${wm}`
     const pp = await conn.profilePictureUrl(m.sender, 'image').catch((_) => "https://telegra.ph/file/1ecdb5a0aee62ef17d7fc.jpg");
     if (_menu.image) {
 
@@ -350,7 +343,7 @@ conn.sendMessage(m.chat, {
             },
           }, {quoted: m});
           } else if (_menu.button) {
-          conn.sendListImageButton(m.chat, `IM SILANA LITE AI\n${all}`, datas, 'instagram.com/noureddine_ouafy', thumbnail)
+          conn.sendListImageButton(m.chat, `I'm NovaChat-Bot By SeeMoo\n${all}`, datas, 'instagram.com/simoabiid', thumbnail)
           }
   } else {
   await conn.reply(m.chat, `"'${cmd}' could not be found. Use commands '${command} list' atau '${command} all' to see the available menu.`,m);

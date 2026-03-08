@@ -1,5 +1,5 @@
 // plugin by my friend Const Offmon = Lana
-// modify by instagram.com/noureddine_ouafy
+// modify by instagram.com/simoabiid
 
 import moment from 'moment-timezone'
 import { toPTT } from '../lib/converter.js'

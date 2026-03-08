@@ -1,5 +1,5 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-  const sgc = "https://chat.whatsapp.com/BsVj24bMEWkLtr6xQVeEYC"; // Replace with your group link
+  const sgc = "https://wa.me/212676226120"; // Replace with your group link
 
   const message = {
     text: `Join the official group to get more information: *[ ${sgc} ]*`,

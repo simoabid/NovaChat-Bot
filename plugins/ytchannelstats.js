@@ -1,11 +1,11 @@
-// plugin by: noureddine
-// Instagram: @noureddine_ouafy
+// plugin by: SeeMoo
+// Instagram: @simoabiid
 // Source: https://evano.com API
 // scrape by : GilangSan
 import axios from 'axios';
 
 let handler = async (m, { conn, text }) => {
-    if (!text) return conn.reply(m.chat, "Send me a YouTube channel URL. Example:\nhttps://youtube.com/@noureddineouafy2", m);
+    if (!text) return conn.reply(m.chat, "Send me a YouTube channel URL. Example:\nhttps://youtube.com/@simoabiid2", m);
 
     try {
         // Fetch channel ID from URL

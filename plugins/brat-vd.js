@@ -3,7 +3,7 @@
 📽️ Effect: كتابة النص تدريجياً وتحويله إلى فيديو
 🎨 خصائص: اللون، الخلفية، البلور، السرعة
 📥 الأمر: .brat [نص]
-🧠 Instagram: @noureddine_ouafy
+🧠 Instagram: @simoabiid
 scrape by Fruatre
 */
 
@@ -141,7 +141,7 @@ async function makeBratVideo(text, {
 }
 
 let handler = async (m, { conn, text }) => {
-  if (!text) return m.reply('📥 أرسل النص بعد الأمر.\nمثال: .brat-vd  silana ai bot  ')
+  if (!text) return m.reply('📥 أرسل النص بعد الأمر.\nمثال: .brat-vd  NovaChat-Bot By SeeMoo  ')
 
   m.reply("⏳ جاري إنشاء الفيديو... المرجو الانتظار قليلاً")
 

@@ -1,4 +1,4 @@
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 // scrape by GilangSan
 import axios from "axios";
 import cheerio from "cheerio";
@@ -57,7 +57,7 @@ async function getHashtagCount(hashtag) {
 let handler = async (m, { text }) => {
   if (!text) return m.reply("Please enter a hashtag name (without #).");
 
-  await m.reply("المرجو الانتظار قليلا لا تنسى ان تتابع \ninstagram.com/noureddine_ouafy");
+  await m.reply("المرجو الانتظار قليلا لا تنسى ان تتابع \ninstagram.com/simoabiid");
 
   try {
     const result = await getHashtagCount(text);

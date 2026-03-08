@@ -1,9 +1,3 @@
-/*• Feature Name: Tourl
-• Type: Plugin ESM
-• Channel Link: https://whatsapp.com/channel/0029VbB8WYS4CrfhJCelw33j
-• Author: Agas
-°° modified by instagram.com/noureddine_ouafy
-*/
 
 import crypto from "crypto";
 import { FormData, Blob } from "formdata-node";

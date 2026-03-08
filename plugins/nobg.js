@@ -1,4 +1,4 @@
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 
 import axios from 'axios';
 
@@ -51,7 +51,7 @@ async function removebg(buffer) {
 }
 
 let handler = async (m, { conn, args, quoted }) => {
-  m.reply('⏳ المرجو الانتظار قليلاً، يتم الآن إزالة الخلفية...\ninstagram.com/noureddine_ouafy');
+  m.reply('⏳ المرجو الانتظار قليلاً، يتم الآن إزالة الخلفية...\ninstagram.com/simoabiid');
 
   let buffer;
   try {

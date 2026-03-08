@@ -1,5 +1,5 @@
 // plugin from  Toxic-v2/xhclintohn thanks 🌟
-// re-modified by instagram.com/noureddine_ouafy
+// re-modified by instagram.com/simoabiid
 
 let handler = async (m, { conn, text }) => {
   try {

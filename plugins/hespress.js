@@ -62,7 +62,7 @@ let handler = async (m, { conn, text, command }) => {
             let url = text.trim();
             let item = await readHespress(url);
 
-            let cap = `تابع صاحب البوت في حسابه:\ninstagram.com/noureddine_ouafy\n
+            let cap = `تابع صاحب البوت في حسابه:\ninstagram.com/simoabiid\n
             
 Title: ${item.title}
 Image: ${item.image}

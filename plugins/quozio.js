@@ -11,10 +11,10 @@ let handler = async (m, {
         text = args.slice(0).join(" ")
     } else if (m.quoted && m.quoted.text) {
         text = m.quoted.text
-    } else throw "Input quotes or reply to the text you want to make into quotes\nأدخل علامات الاقتباس أو قم بالرد على النص الذي تريد تحويله إلى علامات اقتباس\n ex : \n .quozio i love u silana Ai bot"
+    } else throw "Input quotes or reply to the text you want to make into quotes\nأدخل علامات الاقتباس أو قم بالرد على النص الذي تريد تحويله إلى علامات اقتباس\n ex : \n .quozio i love u NovaChat-Bot By SeeMoo bot"
 
     let quote = await createQuote(m.name, text)
-    await conn.sendFile(m.chat, quote, '', "*Request by:*\nfollow Noureddine On ig : noureddine_ouafy" + m.name, m)
+    await conn.sendFile(m.chat, quote, '', "*Request by:*\nfollow SeeMoo On ig : simoabiid" + m.name, m)
 
 }
 handler.tags = ["tools"]

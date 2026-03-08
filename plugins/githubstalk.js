@@ -1,7 +1,7 @@
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 /*
 - *[ Scraper Github Stalk ]*
-- Transformed to plugin format by noureddine
+- Transformed to plugin format by SeeMoo
 - Original by Lezz DcodeR
 */
 
@@ -32,7 +32,7 @@ async function githubStalk(username) {
 }
 
 let handler = async (m, { conn, args }) => {
-  if (!args[0]) return m.reply('المرجو إدخال اسم مستخدم GitHub\nمثال:\n .githubstalk noureddineouafy')
+  if (!args[0]) return m.reply('المرجو إدخال اسم مستخدم GitHub\nمثال:\n .githubstalk simoabiid')
 
   const data = await githubStalk(args[0])
   if (!data) return m.reply('حدث خطأ أثناء جلب المعلومات.')

@@ -1,5 +1,5 @@
 /*
-  plugin by noureddine ouafy
+  plugin by SeeMoo
   scrape by wolep
   base : https://tmpfiles.org/
   note : temporary file, only lasts 1 hour, max file 

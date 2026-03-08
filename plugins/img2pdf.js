@@ -1,4 +1,4 @@
-//plugin by noureddine ouafy
+//plugin by SeeMoo
 // scrape by Claude ai
 import { spawn }   from 'child_process';
 import { writeFile, unlink, mkdtemp } from 'fs/promises';

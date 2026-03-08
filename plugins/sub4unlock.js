@@ -1,5 +1,5 @@
 /*
-plugin by : noureddine ouafy 
+plugin by : SeeMoo 
 scrape by : Fik
 Base  : https://sub4unlock.io
 Adjusted Handler + Guide Example
@@ -78,7 +78,7 @@ This command locks a link behind social actions (subscribe, follow, join).
 .sub4unlock <destination> | <actions>
 
 🔹 Example:
-.sub4unlock instagram.com/noureddine_ouafy | yt=https://youtube.com/@noureddineouafy2 | ig=instagram.com/noureddine_ouafy
+.sub4unlock instagram.com/simoabiid | yt=https://youtube.com/@simoabiid2 | ig=instagram.com/simoabiid
 
 🔹 Supported Actions:
 yt = YouTube Subscribe

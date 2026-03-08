@@ -1,4 +1,4 @@
-//plugin by @noureddine_ouafy
+//plugin by @simoabiid
 //recode by Obito owner ( fix the scrape and make it support button) 🧠
 //scraped by my friend Malik
 
@@ -49,7 +49,7 @@ let handler = async (m, { conn, text }) => {
                       sections: [
                         {
                           title: "📜 الوظائف المتاحة",
-                          highlight_label: "Silana Ai",
+                          highlight_label: "NovaChat-Bot By SeeMoo",
                           rows: buttons,
                         },
                       ],

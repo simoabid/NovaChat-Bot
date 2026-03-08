@@ -1,4 +1,4 @@
-// @noureddine_ouafy
+// @simoabiid
 // APK Downloader Plugin using NexOracle API
 
 import axios from 'axios';
@@ -10,7 +10,7 @@ let handler = async (m, { conn, args }) => {
   }
 
   // رسالة انتظار
-  await m.reply("⏳ المرجو الانتظار قليلا لا تنسى ان تتابع \ninstagram.com/noureddine_ouafy");
+  await m.reply("⏳ المرجو الانتظار قليلا لا تنسى ان تتابع \ninstagram.com/simoabiid");
 
   try {
     const apiUrl = `https://api.nexoracle.com/downloader/apk`;
@@ -41,7 +41,7 @@ let handler = async (m, { conn, args }) => {
                     `📅 *آخر تحديث:* ${lastup}\n` +
                     `📦 *الحزمة:* ${pkg}\n` +
                     `📏 *الحجم:* ${size}\n\n` +
-                    `> 📥 تم التحميل بواسطة Silana Bot`;
+                    `> 📥 تم التحميل بواسطة NovaChat-Bot By SeeMoo`;
 
     await conn.sendMessage(m.chat, {
       document: apkBuffer,

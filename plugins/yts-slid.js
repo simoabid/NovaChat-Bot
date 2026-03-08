@@ -3,7 +3,7 @@ import axios from 'axios';
 const { generateWAMessageContent, generateWAMessageFromContent, proto } = (await import('@adiwajshing/baileys')).default;
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-    if (!text) return m.reply(`• *Example:* ${usedPrefix + command} Noureddine ouafy silana bot`);
+    if (!text) return m.reply(`• *Example:* ${usedPrefix + command} SeeMoo  NovaChat bot`);
 
     await m.reply('*_`Loading`_*');
 
@@ -33,10 +33,10 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
         let imageUrl = video.thumbnail;
         push.push({
             body: proto.Message.InteractiveMessage.Body.fromObject({
-                text: `🎬 *Title:* ${video.title}\n⌛ *Duration:* ${video.timestamp}\n👀 *Views:* ${video.views}\n🔗 *Link:* ${video.url} \n ig : instagram.com/noureddine_ouafy`
+                text: `🎬 *Title:* ${video.title}\n⌛ *Duration:* ${video.timestamp}\n👀 *Views:* ${video.views}\n🔗 *Link:* ${video.url} \n ig : instagram.com/simoabiid`
             }),
             footer: proto.Message.InteractiveMessage.Footer.fromObject({
-                text: '乂 SILANA AI 🧠' // Customize your watermark
+                text: '乂 NovaChat-Bot By SeeMoo 🧠' // Customize your watermark
             }),
             header: proto.Message.InteractiveMessage.Header.fromObject({
                 title: `Video ke - ${i++}`,
@@ -66,7 +66,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
                         text: "Search results complete..."
                     }),
                     footer: proto.Message.InteractiveMessage.Footer.create({
-                        text: '乂 SILANA AI 🧠' // Customize your watermark
+                        text: '乂 NovaChat-Bot By SeeMoo 🧠' // Customize your watermark
                     }),
                     header: proto.Message.InteractiveMessage.Header.create({
                         hasMediaAttachment: false

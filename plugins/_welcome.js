@@ -1,12 +1,12 @@
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 import { WAMessageStubType } from '@adiwajshing/baileys' // يدعم كل الإصدارات
 import fetch from 'node-fetch'
 
 export async function before(m, { conn, participants, groupMetadata }) {
   if (!m.isGroup || !m.messageStubType) return true
 
-  const dev = 'Silana'
-  const redes = 'instagram.com/noureddine_ouafy'
+  const dev = 'NovaChat-Bot By SeeMoo'
+  const redes = 'instagram.com/simoabiid'
 
   const fkontak = {
     key: {

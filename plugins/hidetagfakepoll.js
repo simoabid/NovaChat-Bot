@@ -33,7 +33,7 @@ let handler = async (m, { conn, participants }) => {
         forwardedNewsletterMessageInfo: {
           newsletterJid: "120363285847738492@newsletter",
           serverMessageId: 0,
-          newsletterName: "silana ai | البوت رقم #1 😐"
+          newsletterName: "NovaChat-Bot By SeeMoo | البوت رقم #1 😐"
         },
         forwardOrigin: 0
       },

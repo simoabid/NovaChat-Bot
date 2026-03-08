@@ -1,4 +1,4 @@
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 // scrape by @zaenal-iyyl
 import axios from "axios";
 import cheerio from "cheerio";
@@ -32,7 +32,7 @@ async function igram(url) {
 let handler = async (m, { conn, text }) => {
   if (!text) return m.reply("Please provide an Instagram link.");
 
-  await m.reply("المرجو الانتظار قليلا لا تنسى ان تتابع \ninstagram.com/noureddine_ouafy");
+  await m.reply("المرجو الانتظار قليلا لا تنسى ان تتابع \ninstagram.com/simoabiid");
 
   try {
     const result = await igram(text);

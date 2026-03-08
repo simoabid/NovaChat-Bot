@@ -1,5 +1,5 @@
 /*
-plugin by noureddine ouafy
+plugin by SeeMoo
 scrape by wolfyflutter
   base    : https://keepv.id/
   note    : Final correction for JSON parsing and header issues.

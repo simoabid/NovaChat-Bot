@@ -3,7 +3,7 @@
   Author  : AlfiDev (adapted)
   Support : Single File & Folder
   Note    : Auto send file if <= 100MB, otherwise send link
-  modified: by noureddine ouafy 
+  modified: by SeeMoo 
 */
 
 import axios from "axios"

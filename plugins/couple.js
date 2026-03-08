@@ -1,4 +1,4 @@
-// instagram: noureddine_ouafy
+// instagram: simoabiid
 
 import axios from 'axios';
 

@@ -10,7 +10,7 @@
  * ║  .tt <text>              → shortcut                                       ║
  * ║                                                                           ║
  * ║  EXAMPLE / مثال:                                                          ║
- * ║  .texttrick silana                                                        ║
+ * ║  .texttrick NovaChat-Bot By SeeMoo                                                        ║
  * ║  → 🆂🅸🅻🅰🅽🅰   ꜱɪʟᴀɴᴀ   ɐuɐʃıs   ｓｉｌａｎａ   s҉i҉l҉a҉n҉a҉            ║
  * ║                                                                           ║
  * ╠═══════════════════════════════════════════════════════════════════════════╣
@@ -163,7 +163,7 @@ let handler = async (m, { text }) => {
 *Type the text you want to style!*
 
 📌 *مثال / Example:*
-\`.texttrick silana\`
+\`.texttrick NovaChat-Bot By SeeMoo\`
 \`.tt hello world\`
 \`.fancy your name\``
     );

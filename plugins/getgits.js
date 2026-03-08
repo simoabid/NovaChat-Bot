@@ -1,5 +1,5 @@
 // plugin by sc Kashiwada-MultiDevice 
-// modified by me instagram.com/noureddine_ouafy
+// modified by me instagram.com/simoabiid
 
 import axios from "axios";
 

@@ -5,7 +5,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 let input = ` *exemple*
 	
 
-${usedPrefix + command} silana bot`
+${usedPrefix + command} NovaChat-Bot By SeeMoo`
 
 let teks = m.quoted ? m.quoted.text : text
 	if (!teks) return m.reply(input)

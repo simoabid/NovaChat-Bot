@@ -16,7 +16,7 @@ async function Screenshot(url) {
 }
 
 let handler = async (m, { args, conn }) => {
-    if (!args[0]) return m.reply('Please provide a website URL\n\n*Example:* .ssweb https://instagram.com/noureddine_ouafy');
+    if (!args[0]) return m.reply('Please provide a website URL\n\n*Example:* .ssweb https://instagram.com/simoabiid');
 
     try {
         let result = await Screenshot(args[0]);

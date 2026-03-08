@@ -1,4 +1,4 @@
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 // scrape by Wolfyflutter's
 let handler = async (m, { conn, args }) => {
   if (!args[0]) throw 'المرجو إرسال رابط منشور من إنستغرام.'

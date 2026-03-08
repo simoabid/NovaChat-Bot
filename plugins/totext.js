@@ -1,5 +1,5 @@
 // ocr support also arabic 
-// plugin by noureddine Ouafy 
+// plugin by SeeMoo
 //scrape by GilangSan
 
 

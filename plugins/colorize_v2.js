@@ -1,4 +1,4 @@
-// plugin by instagram.com/noureddine_ouafy
+// plugin by instagram.com/simoabiid
 // scrape by fathurweb
 
 import axios from 'axios'

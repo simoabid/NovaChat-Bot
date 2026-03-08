@@ -1,4 +1,4 @@
-// @noureddine_ouafy
+// @simoabiid
 // Plugin: OCR / ToText
 // by Created by OwnBlox
 

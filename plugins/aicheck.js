@@ -1,11 +1,3 @@
-/*
-📌 Name : Turnitin AI Checker
-🏷️ Type : ESM Plugin
-📦 Channel : https://whatsapp.com/channel/0029Vb4HHTJFCCoYgkMjn93K
-📑 Note : Help us reach 500 followers hehe
-🔗 Base URL : https://reilaa.com
-👤 Creator : Hazel
-*/
 
 import axios from 'axios'
 

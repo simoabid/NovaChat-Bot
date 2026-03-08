@@ -1,7 +1,7 @@
 /**
- * @instagram.com/noureddine_ouafy
+ * @instagram.com/simoabiid
  * Scrape TikTok Earnings by Username
- * Author: SaaOfc's | Modified by: @noureddine_ouafy
+ * Author: SaaOfc's | Modified by: @simoabiid
  */
 
 import axios from 'axios';

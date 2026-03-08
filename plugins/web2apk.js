@@ -1,4 +1,4 @@
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 // Plugin: Convert Website to APK using appmaker.xyz API
 
 import axios from 'axios'

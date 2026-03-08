@@ -1,4 +1,4 @@
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 // scrape by Fahmi-XD
 import axios from "axios";
 import crypto from "crypto";
@@ -115,7 +115,7 @@ let handler = async (m, { conn }) => {
       return m.reply("📸 أرسل صورة مع الأمر:\n.aimirror");
     }
 
-    m.reply("⏳ المرجو الانتظار قليلا لا تنسى ان تتابع\ninstagram.com/noureddine_ouafy");
+    m.reply("⏳ المرجو الانتظار قليلا لا تنسى ان تتابع\ninstagram.com/simoabiid");
 
     const imgBuffer = await q.download();
     const imageBase64 = `data:${mime};base64,${imgBuffer.toString("base64")}`;

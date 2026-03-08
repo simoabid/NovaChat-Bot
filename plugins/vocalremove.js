@@ -1,4 +1,4 @@
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 
 import axios from "axios";
 import * as cheerio from "cheerio";
@@ -151,7 +151,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text && !/audio|video/.test(mime))
     return m.reply(`🎵 *Usage:*\nReply to an audio/video or send a link\nExample:\n${usedPrefix + command} <audio_url>`);
 
-  m.reply("⏳ المرجو الانتظار قليلا لا تنسى ان تتابع \ninstagram.com/noureddine_ouafy");
+  m.reply("⏳ المرجو الانتظار قليلا لا تنسى ان تتابع \ninstagram.com/simoabiid");
 
   try {
     const api = new XMinus();

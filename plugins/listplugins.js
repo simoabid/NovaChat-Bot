@@ -1,4 +1,4 @@
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 import fs from "fs";
 
 let handler = async (m, { conn }) => {

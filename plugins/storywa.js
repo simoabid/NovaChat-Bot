@@ -1,4 +1,4 @@
-// plugin by noureddine ouafy 
+// plugin by SeeMoo 
 // scrape by malik
 import axios from "axios";
 import crypto from "crypto";

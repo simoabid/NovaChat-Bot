@@ -1,4 +1,4 @@
-// @instagram: noureddine_ouafy
+// @instagram: simoabiid
 // 📌 Plugin: Gock Prompt Generator
 // scrape by GilangSan
 import axios from 'axios'

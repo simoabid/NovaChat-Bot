@@ -1,9 +1,3 @@
-/**
- * IG: instagram.com/noureddine_ouafy
- * CR Ponta Sensei
- * CH https://whatsapp.com/channel/0029VagslooA89MdSX0d1X1z
- * WEB https://codeteam.my.id
- */
 
 import fetch from 'node-fetch';
 import cheerio from 'cheerio';

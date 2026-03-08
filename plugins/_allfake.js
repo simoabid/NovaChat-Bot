@@ -8,18 +8,18 @@ let handler = (m) => m;
 handler.all = async function (m) {
   let name = await conn.getName(m.sender);
   let pp =
-    "https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg";
-  let fotonyu = "https://files.catbox.moe/hnbuh3.jpg";
-  let logo = "https://files.catbox.moe/hnbuh3.jpg"; // define logo aquí
-  let namebot = "SILANA LITE AI";
-  let sig = "https://instagram.com/noureddine_ouafy";
+    "https://picsur.ovh/i/c0948522-2092-4dc6-91fb-8644072e922f.jpg";
+  let fotonyu = "https://picsur.ovh/i/c0948522-2092-4dc6-91fb-8644072e922f.jpg";
+  let logo = "https://picsur.ovh/i/c0948522-2092-4dc6-91fb-8644072e922f.jpg"; // define logo aquí
+  let namebot = "NovaChat-Bot By SeeMoo";
+  let sig = "https://instagram.com/simoabiid";
 
   try {
     // pp = await this.profilePictureUrl(m.sender, "image");
   } catch (e) {
     console.error(e);
   } finally {
-    global.emror = "https://files.catbox.moe/hnbuh3.jpg";
+    global.emror = "https://picsur.ovh/i/c0948522-2092-4dc6-91fb-8644072e922f.jpg";
 
     global.doc = pickRandom([
       "application/vnd.ms-excel",
@@ -44,8 +44,8 @@ handler.all = async function (m) {
     global.kontak2 = [
       [
         owner[0],
-        await conn.getName(owner[0] + "212717457920@s.whatsapp.net"),
-        "SILANA AI",
+        await conn.getName(owner[0] + "212676226120@s.whatsapp.net"),
+        "NovaChat-Bot By SeeMoo",
         "https://whatsapp.com",
         true,
       ],
@@ -91,7 +91,7 @@ handler.all = async function (m) {
         forwardedNewsletterMessageInfo: {
           newsletterJid: "120363285847738492@newsletter",
           serverMessageId: 103,
-          newsletterName: `SILANA LITE AI    |   هيا نحو النجاح 🧑‍🏫`,
+          newsletterName: `NovaChat-Bot    |   هيا نحو النجاح 🧑‍🏫`,
         },
         externalAdReply: {
           title: namebot,

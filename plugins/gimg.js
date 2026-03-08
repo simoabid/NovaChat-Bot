@@ -1,4 +1,4 @@
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 // scrape by wolfyflutter thanks brother 
 import fetch from 'node-fetch'
 

@@ -1,4 +1,4 @@
-// plugin by instagram.com/noureddine_ouafy
+// plugin by instagram.com/simoabiid
 import crypto from "crypto"
 import axios from "axios"
 

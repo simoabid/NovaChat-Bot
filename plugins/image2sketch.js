@@ -1,4 +1,4 @@
-// Plugin by noureddine_ouafy
+// Plugin by simoabiid
 // Converts an image to a pencil sketch using an online API.
 
 import axios from 'axios'

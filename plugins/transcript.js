@@ -1,4 +1,4 @@
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 // YouTube Transcript Plugin
 // scrape by SaaOffc
 import fetch from 'node-fetch';

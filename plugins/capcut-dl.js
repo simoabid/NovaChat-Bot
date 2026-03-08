@@ -1,5 +1,5 @@
 // scrape by github=zaenal-iyyl
-// plugin by noureddine ouafy 
+// plugin by SeeMoo 
 
 import axios from "axios"
 

@@ -18,7 +18,7 @@ const pp = await conn.profilePictureUrl(m.sender, "image").catch((_) => "https:/
 // checking user
   if (user.registered === true) throw `You Have Already Registered In The Database, Do You Want To Re-Register? *${usedPrefix}unreg*`
   // input 
-  if (!Reg.test(text)) return m.reply(`Enter your name and age\nExample: .daftar Noureddine.17`)
+  if (!Reg.test(text)) return m.reply(`Enter your name and age\nExample: .daftar SeeMoo.20`)
   let [_, name, splitter, age] = text.match(Reg)
   if (!name) throw 'Name Cannot Be Empty'
   if (!age) throw 'Age Cant Be Blank'
@@ -54,7 +54,7 @@ contextInfo:
 						}
 					}}, m)
 					/*} else {
-					await conn.reply(m.chat, '📢 انضم إلى مجموعة Silana Bot لتتمكن من التسجيل والوصول إلى مميزات البوت 😉', null)
+					await conn.reply(m.chat, '📢 انضم إلى مجموعة NovaChat-Bot By SeeMoo لتتمكن من التسجيل والوصول إلى مميزات البوت 😉', null)
 					} */
 }
 handler.help = [ 'register']

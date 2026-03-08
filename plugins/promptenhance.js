@@ -8,7 +8,7 @@
  * Example with type: .enhance mid a futuristic city with flying cars
  *
  * Dependencies: axios, crypto
- * plugin by noureddine ouafy 
+ * plugin by SeeMoo 
  * scrape by GilangSan
  */
 

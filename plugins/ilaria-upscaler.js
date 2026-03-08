@@ -1,4 +1,4 @@
-// @instagram.com/noureddine_ouafy
+// @instagram.com/simoabiid
 // Plugin: Illaria Upscaler
 // scrape by Rynn Hub
 import axios from 'axios';
@@ -95,7 +95,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 
   const qimg = await m.quoted.download();
 
-  m.reply("🔄 المرجو الانتظار قليلا لا تنسى ان تتابع \ninstagram.com/noureddine_ouafy");
+  m.reply("🔄 المرجو الانتظار قليلا لا تنسى ان تتابع \ninstagram.com/simoabiid");
 
   try {
     const upscaler = new IllariaUpscaler();

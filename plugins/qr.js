@@ -1,4 +1,4 @@
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 // QR Code Generator Plugin
 // Source: qr.io API
 // Plugin to generate QR from text or URL

@@ -1,8 +1,3 @@
-/** 
- * By: Hydra
- * https://whatsapp.com/channel/0029VadrgqYKbYMHyMERXt0e
- * info: list of WhatsApp channels, that's all
- **/
 
 import moment from "moment-timezone";
 

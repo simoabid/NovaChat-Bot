@@ -1,4 +1,4 @@
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 import fetch from 'node-fetch';
 
 const gemini = {

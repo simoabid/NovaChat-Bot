@@ -1,4 +1,4 @@
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 import axios from 'axios'
 
 let handler = async (m, { conn, command, quoted, prefix }) => {

@@ -4,7 +4,7 @@ import axios from 'axios';
  * Sdxl Generate Image - Magic Eraser
  * Author  : gienetic
  * Base    : https://play.google.com/store/apps/details?id=com.duygiangdg.magiceraser
- * Plugin by : noureddine ouafy
+ * Plugin by : SeeMoo
  */
 
 /**

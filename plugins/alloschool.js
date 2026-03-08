@@ -1,4 +1,4 @@
-//instagram.com/noureddine_ouafy
+//instagram.com/simoabiid
 import axios from 'axios';
 import cheerio from 'cheerio';
 import baileys from '@adiwajshing/baileys';

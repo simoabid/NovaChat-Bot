@@ -1,4 +1,4 @@
-// instagram.com/noureddine_ouafy
+// instagram.com/simoabiid
 // scrape by malik
 import axios from "axios";
 
@@ -69,7 +69,7 @@ class GeminiAPI {
 let handler = async (m, { conn, text, quoted }) => {
   if (!text) return m.reply("Please provide a prompt. \n .gemini-v2");
 
-  await m.reply("المرجو الانتظار قليلا لا تنسى ان تتابع \ninstagram.com/noureddine_ouafy");
+  await m.reply("المرجو الانتظار قليلا لا تنسى ان تتابع \ninstagram.com/simoabiid");
 
   const gemini = new GeminiAPI();
   let imageUrl = null;

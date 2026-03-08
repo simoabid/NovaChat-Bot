@@ -2,7 +2,7 @@
 `[pinterest-img]`
 type : ESM plugin
 API : https://api.siputzx.my.id
-plugin modified by noureddine ouafy
+plugin modified by SeeMoo
 */
 
 import fetch from 'node-fetch'

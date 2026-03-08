@@ -1,5 +1,5 @@
 // scrape by JazxCode
-//plugin by noureddine ouafy
+//plugin by SeeMoo
 import axios from 'axios';
 import cheerio from 'cheerio';
 
@@ -7,7 +7,7 @@ import cheerio from 'cheerio';
 let handler = async (m, { conn, args, text }) => {
   // Check if a username was provided
   if (!args[0]) {
-    throw 'Please provide an Instagram username! Example: !igstalk noureddine_ouafy';
+    throw 'Please provide an Instagram username! Example: !igstalk simoabiid';
   }
 
   // The Instagram stalking function

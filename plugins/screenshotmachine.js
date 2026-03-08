@@ -1,4 +1,4 @@
-// plugin by noureddine ouafy 
+// plugin by SeeMoo 
 // scrape by wolfyflutter
 
 
@@ -90,7 +90,7 @@ const ssweb = {
 
 
 // ===============================
-//   🔥 Silana Handler
+//   🔥 NovaChat-Bot By SeeMoo Handler
 // ===============================
 
 let handler = async (m, { conn, args }) => {

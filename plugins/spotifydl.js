@@ -1,5 +1,5 @@
 // Hecho por Ado
-// plugin by instagram.com/noureddine_ouafy
+// plugin by instagram.com/simoabiid
 import fetch from "node-fetch"
 import fs from "fs"
 import path from "path"
