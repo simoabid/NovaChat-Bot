@@ -30,7 +30,7 @@ A passionate developer and botmaker building tools to automate and enhance daily
 | 👤 **Name** | `SeeMoo` |
 | 🐙 **GitHub** | [@simoabid](https://github.com/simoabid) |
 | 📸 **Instagram** | [@simoabiid](https://instagram.com/simoabiid) |
-| 🎥 **LinkedIn** | [@](https://www.linkedin.com/mohamed-amine-abidd) |
+| 🎥 **LinkedIn** | [@mohamed-amine-abidd](https://www.linkedin.com/mohamed-amine-abidd) |
 | 💬 **WhatsApp** | [Join Here](https://wa.me/212676226120) |
 
 <br clear="right"/>
@@ -273,6 +273,6 @@ See the [LICENSE](LICENSE) file for details.
 **Made with ❤️ by [SeeMoo](https://github.com/simoabid)**
 
 ⭐ **Star this repo** if you found it useful!
-📢 **Join me on LinkedIn** for updates → [WhatsApp Channel](https://www.linkedin.com/mohamed-amine-abidd)
+📢 **Join me on LinkedIn** for updates → [LinkedIn URL](https://www.linkedin.com/mohamed-amine-abidd)
 
 </div>
