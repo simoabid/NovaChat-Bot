@@ -36,9 +36,9 @@ let handler = async (m, { args }) => {
   }
 };
 
-handler.help = ["tiktok2"];
+handler.help = ["tiktok2 <url>", "tt2 <url>"];
 handler.tags = ["downloader"];
-handler.command = ["tiktok2"];
+handler.command = ["tiktok2", "tt2"];
 
 export default handler;
 

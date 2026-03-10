@@ -11,5 +11,7 @@ sessions/
 .sessions/
 **/sessions/
 **/sessions/*
+install-bot.sh
+start-bot.sh
 
 
