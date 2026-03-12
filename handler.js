@@ -1073,13 +1073,6 @@ ${global.namebot}
                 }
             }
             
-            if (!opts['restrict'])
-                if (plugin.tags && plugin.tags.includes('admin')) {
-                    global.dfail('restrict', m, this)
-                    continue
-                }
-            
-                
             const str2Regex = str => str.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&')
             let _prefix = plugin.customPrefix ? plugin.customPrefix : this.prefix ? this.prefix : global.prefix
             let match = (_prefix instanceof RegExp ? // RegExp Mode?
@@ -1141,6 +1134,10 @@ ${global.namebot}
 
                 if (!isAccept)
                     continue
+                if (!opts['restrict'] && plugin.tags && plugin.tags.includes('admin')) {
+                    global.dfail('restrict', m, this)
+                    continue
+                }
                 m.plugin = name
                 if (m.chat in global.db.data.chats || m.sender in global.db.data.users) {
                     let chat = global.db.data.chats[m.chat]
@@ -1640,9 +1637,12 @@ It's detected @${participant.split(`@`)[0]} has deleted the message just now > T
 
 
 global.dfail = (type, m, conn) => {
+let client = conn || global.conn
 let tag = `@${m.sender.replace(/@.+/, '')}`
 let mentionedJid = [m.sender]
-let name = this.getName(m.sender)
+let name = typeof client?.getName === 'function'
+    ? client.getName(m.sender)
+    : (m.pushName || m.name || m.sender.replace(/@.+/, ''))
 
 let fkon = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
 
@@ -1664,7 +1664,9 @@ let msg = {
         mods: 'هذه الميزة للمشرفين فقط'
         }[type]
         
-  if (msg) return this.sendMessage(m.chat, {
+  if (msg) {
+      if (typeof client?.sendMessage === 'function') {
+          return client.sendMessage(m.chat, {
       text: msg, 
       contextInfo: {
       externalAdReply: {
@@ -1675,13 +1677,21 @@ let msg = {
       mediaType: 1,
       renderLargerThumbnail: true
       }}}, { quoted: fkon})
+      }
+      return m.reply(msg)
+  }
         
     let daftar = {
   unreg: `\`أنت لم تسجل بعد في قاعدة البيانات. سجل فورا عن طريق الكتابة:\`
   
 - /daftar name. age\n\n Please follow my Instagram for more updates\n\n www.instagram.com/simoabiid`}[type]
   
-  if (daftar) return this.sendUrlImageButton(m.chat, daftar, [{name: "quick_reply", buttonParamsJson: `{"display_text": "تسجيل الدخول", "id": "@verify"}`}], wm, registrasi, fkon)
+  if (daftar) {
+      if (typeof client?.sendUrlImageButton === 'function') {
+          return client.sendUrlImageButton(m.chat, daftar, [{name: "quick_reply", buttonParamsJson: `{"display_text": "تسجيل الدخول", "id": "@verify"}`}], wm, registrasi, fkon)
+      }
+      return m.reply(daftar)
+  }
         }
 
 function ucapan() {
